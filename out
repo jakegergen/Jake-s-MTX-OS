@@ -1,0 +1,15 @@
+    printf("rash: Logging you out.\n");
+    //printf("we are in do_pipe()\n");
+    //printf("we are in do_command()\n");
+        printf("sh do_command(): tokens[%d]=%s\n", cmdCount, tokenBuf[cmdCount]);
+                //Debug printing
+                printf("rash: no such input file, failed to open file for reading on line 138\n");
+                //Debug printing
+                printf("rash: couldn't open file, or couldn't create file on line 167\n");
+                //Debug printing
+                printf("rash: couldn't open file, or couldn't create file on line 167\n");
+        //We've entered into shell from parent, let's print name of shell and wait
+        printf("rash : ");
+            printf("sh main: tokens[%d]=%s\n", tokensCount, tokens[tokensCount]);
+        printf("you entered:%s\n", userInputLine);
+            printf("rash: fork failed!\n");
